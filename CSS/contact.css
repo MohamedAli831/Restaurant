@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* *************************Header********************************* */
+.navbar {
+    position: absolute !important;
+    width: 100%;
+    top: 0;
+    background: none !important;
+    z-index: 22;
+    padding: 25px 70px;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar .navBtn {
+    outline: 1px solid #D9D9D9;
+    border: 1px solid #ffffff9c;
+    outline-offset: 5px;
+    padding: 5px 30px;
+
+}
+
+.navbar .navBtn:hover {
+    background-color: #c7803f;
+    outline: 1px solid #c7803f;
+    border: 1px solid #c7803f;
+}
+
+.navbar .nav-item {
+
+    padding: 0 20px !important;
+
+}
+
+.navbar .nav-link {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+
+}
+
+.navbar .nav-link.active {
+    color: #c7803f;
+}
+
+.navbar .navList .nav-link:hover {
+    transition: all 0.3 ease-in-out;
+    color: #c7803f;
+}
+
+.shopSection {
+    background-image: url("../images/erica-shop-bg1-a.jpg");
+    min-height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.shopSection div h3 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Spectral', serif;
+}
+
+.shopSection .linkDiv {
+    display: flex;
+}
+
+.shopSection div p {
+    color: white;
+    font-size: 18px;
+
+}
+
+.shopSection div a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #D9D9D9;
+    margin-left: 8px;
+
+
+}
+
+/* ************contact****************** */
+.contactSection{
+   padding: 80px 0;
+}
+.contactSection h3{
+    font-size: 45px;
+    font-family: 'Spectral', serif;
+    margin-bottom: 20px;
+}
+.contactSection input,.contactSection textarea{
+display: block;
+width: 100%;
+outline: none;
+border: none;
+border-bottom: 1px solid #797979;
+margin-top: 30px;
+}
+.contactSection input::placeholder{
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Spectral', serif;
+
+}
+.contactSection textarea::placeholder{
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Spectral', serif;
+}
+.contactSection button{
+    display: inline-block;
+    outline: 1px solid #c7803f;
+    border: 1px solid #c7803f;
+    outline-offset: 5px;
+    padding: 5px 30px;
+    background-color: transparent;
+    color: #c7803f;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: auto;
+}
+.contactSection button:hover{
+ background-color: #c7803f;   
+ color: white;
+}
+/* *********************** footer ************************** */
+footer {
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+footer h3 {
+    font-family: 'Spectral', serif;
+}
+
+footer ul li {
+    margin-top: 10px;
+    list-style: none;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #797979;
+    font-weight: 400;
+}
+
+footer ul li a:hover {
+    color: #c7803f;
+}
+footer p {
+    margin-top: 20px;
+    color: #797979;
+
+}
+.boderdiv {
+    background-color: #c7803f;
+    height: 1px;
+    width: 100px;
+    margin: auto;
+}

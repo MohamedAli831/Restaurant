@@ -1,0 +1,414 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS\bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <title>Restaurant</title>
+  </head>
+  <header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mb-2 mb-lg-0">
+  <li class="nav-item">
+  <a class="nav-link active" aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="#">About us</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="contact.html">Contact Us</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="shop.html">Shop</a>
+  </li>
+  </ul>
+
+  <img src="images/logo-white.svg" alt="">
+
+  <ul class="navbar-nav mb-2 mb-lg-0">
+
+  <li class="nav-item">
+  <a class="nav-link" href="#">Search</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="cart.html">Cart <span>(0)</span></a>
+  </li>
+  <li class="nav-item">
+  <button class="navbtn">Book A Table</button>
+  </li>
+
+  </ul>
+
+
+
+  </div>
+  </div>
+  </nav>
+  <section class="firstsection">
+  <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+  <div class="swiper-slide">
+  <img src= "images\erica-m1-s1-a.jpg" >
+  <div>
+  <p>The Flavors Of Life Are Just A Bite Away</p>
+  <h2>
+  FLAVORS FOR ROYALTY
+  </h2>
+  <BUTton>Learn More</BUTton>
+  </div>
+  </div>
+
+  <div class="swiper-slide">
+  <img src="images\erica-m1-s1-b.jpg" >
+  <div>
+  <p>The Flavors Of Life Are Just A Bite Away</p>
+  <h2>
+  FLAVORS FOR ROYALTY
+  </h2>
+  <BUTton>Learn More</BUTton>
+  </div>
+  </div>
+
+  <div class="swiper-slide">
+  <img src="images\erica-m1-s1-c.jpg" >
+  <div>
+  <p>The Flavors Of Life Are Just A Bite Away</p>
+  <h2>
+  FLAVORS FOR ROYALTY
+  </h2>
+  <BUTton>Learn More</BUTton>
+  </div>
+  </div>
+
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+  </div>
+  </div>
+  </section>
+</header>
+<section class="menuSection">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-6 menuImages">
+  <img src="images/erica-m1-bg1-a.jpg" alt="" class="firstImg">
+  <img src="images/erica-m1-bg1-b.jpg" alt="" class="secondImg">
+  
+  </div>
+  <div class="col-md-6">
+  <div class="tab">
+  <button class="tablinks active" onclick="openCity(event, 'Appetizers')">Appetizers</button>
+  <button class="tablinks" onclick="openCity(event, 'Drinks')">Drinks</button>
+  <button class="tablinks" onclick="openCity(event, 'MainCourse')">Main Course</button>
+  <button class="tablinks" onclick="openCity(event, 'Desserts')">Desserts</button>
+  
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Appetizers" class="tabcontent active">
+  <div>
+  <div>
+  <h3>Spinach Artichoke Dip </h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  <div>
+  <div>
+  <h3>Appetizers Chicken Cobb Salad</h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  <div>
+  <div>
+  <h3>Tex-Mex Fajitas </h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  <a href="#">Explore More</a>
+  
+  
+  </div>
+  <!-- Tab content -->
+  <div id="Drinks" class="tabcontent">
+  <div>
+  <div>
+  <h3>Drinks Artichoke Dip </h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  <div>
+  <div>
+  <h3>Roasted Chicken Cobb Salad</h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  <div>
+  <div>
+  <h3>Tex-Mex Fajitas </h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  
+  <a href="#">Explore More</a>
+  
+  </div>
+  
+  <!-- Tab content -->
+  <div id="MainCourse" class="tabcontent">
+  <div>
+  <div>
+  <h3>Spinach Artichoke Dip </h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  <div>
+  <div>
+  <h3>Roasted Chicken Cobb Salad</h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  <div>
+  <div>
+  <h3>Tex-Mex Fajitas </h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  
+  <a href="#">Explore More</a>
+  
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Desserts" class="tabcontent">
+  <div>
+  <div>
+  <h3>Spinach Artichoke Dip </h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  <div>
+  <div>
+  <h3>Roasted Chicken Cobb Salad</h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  <div>
+  <div>
+  <h3>Tex-Mex Fajitas </h3>
+  <p>Cream cheese, Sour cream, Mayonnaise, Garlic, Parmesan, Mozzarella, Pepper, Canned
+      artichokes, Frozen spinach
+  </p>
+  </div>
+  <p>$15.00</p>
+  </div>
+  
+  
+          <a href="#">Explore More</a>
+      </div>
+  
+  
+  </div>
+  </div>
+  </div>
+  </section>
+  <!-- Start flavor Section -->
+  
+  <section class="FlavorSection">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-6">
+      <h3>
+          THE FLAVORS OF LIFE ARE JUST A BITE AWAY
+      </h3>
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ac felis donec et odio pellentesque diam volutpat commodo sed.
+          Dictumst vestibulum rhoncus est.
+      </p>
+      <button>
+          Explore Us
+      </button>
+  </div>
+  <div class="col-md-6">
+      <img src="images/erica-m1-bg2-b (1).png" alt="">
+  </div>
+  </div>
+  </div>
+  </section>
+
+<!-- Start team Section -->
+<section class="teamSection">
+  <div class="container">
+  <h2>Meet The Chefs</h2>
+  <div class="row">
+  <div class="col-md-3 teamDiv">
+  <div class="imageDiv">
+  <img src="images/erica-m2-team-a.jpg" alt="">
+  <div class="overlay">
+  
+  </div>
+  </div>
+  <h3>
+  Keneth Conroy
+  </h3>
+  <p>
+  Assistant chef
+  </p>
+  
+  </div>
+  <div class="col-md-3 teamDiv">
+  <div class="imageDiv">
+  <img src="images/erica-m2-team-b.jpg" alt="">
+  <div class="overlay">
+  
+  </div>
+  </div>
+  <h3>
+  Keneth Conroy
+  </h3>
+  <p>
+  Assistant chef
+  </p>
+  
+  </div>
+  <div class="col-md-3 teamDiv">
+  <div class="imageDiv">
+  <img src="images/erica-m2-team-c.jpg" alt="">
+  <div class="overlay">
+  
+  </div>
+  </div>
+  <h3>
+  Keneth Conroy
+  </h3>
+  <p>
+  Assistant chef
+  </p>
+  
+  </div>
+  <div class="col-md-3 teamDiv">
+  <div class="imageDiv">
+  <img src="images/erica-m2-team-d.jpg" alt="">
+  <div class="overlay">
+  
+  </div>
+  </div>
+  <h3>
+  Keneth Conroy
+  </h3>
+  <p>
+  Assistant chef
+  </p>
+  
+  </div>
+  </div>
+  </div>
+  </section>
+  <!-- Start footer  -->
+  
+  <footer>
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4 col-sm-12">
+  <h3>Company Links</h3>
+  <ul>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">Shop</a></li>
+  <li><a href="#">Help Center</a></li>
+  <li><a href="#">Contact</a></li>
+  
+  </ul>
+  </div>
+  
+  <div class="col-md-4 col-sm-12">
+  <img src="images/logo.svg" alt="" width="100px">
+  <p>Enjoy our seasonal menu and experience the beauty of naturalness </p>
+  <div class="boderdiv"></div>
+  </div>
+  
+  
+  <div class="col-md-4 col-sm-12">
+  <h3>Categories</h3>
+  <ul>
+  <li><a href="#">Menu</a></li>
+  <li><a href="#">Appetizers</a></li>
+  <li><a href="#">Drinks</a></li>
+  <li><a href="#">Desserts</a></li>
+  
+  </ul>
+  </div>
+  </div>
+  </div>
+  
+  </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+  var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+  delay: 2500,
+  disableOnInteraction: false,
+  },
+  pagination: {
+  el: ".swiper-pagination",
+  clickable: true,
+  },
+  navigation: {
+  nextEl: ".swiper-button-next",
+  prevEl: ".swiper-button-prev",
+  },
+  });
+  slidesperview:1
+  </script>
+  <script src="JS/bootstrap.bundle.js"></script>
+  <script src="JS/main.js"></script>
+  </body>
+  </html>
